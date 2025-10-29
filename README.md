@@ -57,50 +57,50 @@ Visualized key insights using bar charts, histograms, box plots, and correlation
 # Insights & Interpretation
 ### A] Key findings :
 ##### ✅Usage and addiction patterns:
-1] Students with higher Avg_Daily_Usage_Hours tend to have higher Addicted_Score.
-2] Those spending more time on social media show higher Conflicts_Over_Social_Media.
+###### 1] Students with higher Avg_Daily_Usage_Hours tend to have higher Addicted_Score.
+###### 2] Those spending more time on social media show higher Conflicts_Over_Social_Media.
 
 ##### ✅Sleep and mental health:
-1] Students with less Sleep_Hours_Per_Night often report lower Mental_Health_Score.
+###### 1] Students with less Sleep_Hours_Per_Night often report lower Mental_Health_Score.
 
 ##### ✅Demographic observations:
-1] Certain Academic_Level or Gender groups spend more time on social media platforms.
-2] Platform usage (e.g., TikTok, YouTube) varies across Age and Country.
+###### 1] Certain Academic_Level or Gender groups spend more time on social media platforms.
+###### 2] Platform usage (e.g., TikTok, YouTube) varies across Age and Country.
 
 ### B]Trends and Anomalies :
 ##### ✅Trends:
-1] Positive correlation between Avg_Daily_Usage_Hours and Conflicts_Over_Social_Media.
-2] Negative correlation between Sleep_Hours_Per_Night and Addicted_Score.
-3] Older students tend to have slightly higher Mental_Health_Score.
+###### 1] Positive correlation between Avg_Daily_Usage_Hours and Conflicts_Over_Social_Media.
+###### 2] Negative correlation between Sleep_Hours_Per_Night and Addicted_Score.
+###### 3] Older students tend to have slightly higher Mental_Health_Score.
 
 ##### ✅Anomalies / Outliers:
-1] Some students have extremely high Student_ID (possibly data entry errors).
-2]Unusually high Conflicts_Over_Social_Media in a few cases despite low usage.
-3] Zero or missing values in Unnamed: 11 — removed as irrelevant.
+###### 1] Some students have extremely high Student_ID (possibly data entry errors).
+###### 2]Unusually high Conflicts_Over_Social_Media in a few cases despite low usage.
+###### 3] Zero or missing values in Unnamed: 11 — removed as irrelevant.
 
 ### C] Relationships Between Features : 
 ##### ✅Correlation insights:
-1] Avg_Daily_Usage_Hours ↔ Addicted_Score: strong positive correlation.
-2] Sleep_Hours_Per_Night ↔ Mental_Health_Score: mild positive correlation.
-3]Conflicts_Over_Social_Media ↔ Addicted_Score: moderate positive correlation.
+###### 1] Avg_Daily_Usage_Hours ↔ Addicted_Score: strong positive correlation.
+###### 2] Sleep_Hours_Per_Night ↔ Mental_Health_Score: mild positive correlation.
+###### 3]Conflicts_Over_Social_Media ↔ Addicted_Score: moderate positive correlation.
 
 ##### ✅Categorical vs numeric relationships:
-1] Gender and Academic_Level show differences in platform usage and usage patterns.
-2] Students affecting academic performance (Affects_Academic_Performance) show higher social media usage and conflicts.
+######1] Gender and Academic_Level show differences in platform usage and usage patterns.
+###### 2] Students affecting academic performance (Affects_Academic_Performance) show higher social media usage and conflicts.
 
 ### D] Implications for Modeling :
 ##### ✅Predictive modeling:
-1] Addicted_Score or Mental_Health_Score can be predicted using numeric features like Avg_Daily_Usage_Hours, Sleep_Hours_Per_Night, Conflicts_Over_Social_Media.
-2] Categorical variables (Gender, Academic_Level, Most_Used_Platform) can be included via 
+###### 1] Addicted_Score or Mental_Health_Score can be predicted using numeric features like Avg_Daily_Usage_Hours, Sleep_Hours_Per_Night, Conflicts_Over_Social_Media.
+###### 2] Categorical variables (Gender, Academic_Level, Most_Used_Platform) can be included via 
    One-Hot Encoding.
 
 ##### ✅Feature selection:
-1] Highly correlated features (like Avg_Daily_Usage_Hours and Addicted_Score) may need careful handling to avoid multicollinearity.
-2] Outlier treatment (capping or Winsorization) ensures robust model performance.
+###### 1] Highly correlated features (like Avg_Daily_Usage_Hours and Addicted_Score) may need careful handling to avoid multicollinearity.
+###### 2] Outlier treatment (capping or Winsorization) ensures robust model performance.
 
 ##### ✅Potential interventions / insights:
-1] Reducing daily usage or encouraging better sleep might improve Mental_Health_Score.
-2] Understanding platform-specific conflicts can guide student counseling or awareness programs.
+###### 1] Reducing daily usage or encouraging better sleep might improve Mental_Health_Score.
+###### 2] Understanding platform-specific conflicts can guide student counseling or awareness programs.
 
 ## Project Summary
 The cleaned student social media dataset provides valuable insights into how social media usage affects students’ sleep, mental health, and academic performance. After handling missing values, correcting invalid entries, and standardizing data, the dataset is now accurate, consistent, and ready for analysis or modeling. The visualizations and statistical summaries highlight meaningful patterns that can help understand students’ online behavior and its academic impact.
