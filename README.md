@@ -2,9 +2,9 @@
 This repository contains a cleaned version of a student social media dataset. The Jupyter Notebook includes steps for handling missing and invalid values, correcting negative entries, removing duplicates, and encoding categorical variables. The dataset is preprocessed and ready for analysis or modeling.
 
 #### Dataset Name : Students_Social_Media_Addiction
-# Total column : 13
-# Total records : 250
-# Column-wise Information of the Dataset
+#### Total column : 13
+#### Total records : 250
+## Column-wise Information of the Dataset
 1] Student_ID: Unique identifier for each student (contains duplicates).
 2] Age: Age of the student in years.
 3] Gender: Male or Female.
@@ -18,7 +18,7 @@ This repository contains a cleaned version of a student social media dataset. Th
 11] Addicted_Score: Social media addiction score (contains missing values).
 12] Affects_Academic_Performance: Indicates if social media affects academics (Yes/No).
 
-# Analysis of Data
+## Analysis of Data
 1. Dataset Overview :
 Dataset with 250 rows × 13 columns containing student demographics, social media usage, sleep patterns, and academic impact.
 Dropped irrelevant column Unnamed: 11.
@@ -102,5 +102,5 @@ D] Implications for Modeling :
 1] Reducing daily usage or encouraging better sleep might improve Mental_Health_Score.
 2] Understanding platform-specific conflicts can guide student counseling or awareness programs.
 
-# Project Summary
+## Project Summary
 The cleaned student social media dataset provides valuable insights into how social media usage affects students’ sleep, mental health, and academic performance. After handling missing values, correcting invalid entries, and standardizing data, the dataset is now accurate, consistent, and ready for analysis or modeling. The visualizations and statistical summaries highlight meaningful patterns that can help understand students’ online behavior and its academic impact.
