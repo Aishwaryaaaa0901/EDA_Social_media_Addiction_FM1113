@@ -55,50 +55,50 @@ Ensured realistic value ranges across numeric columns.
 Visualized key insights using bar charts, histograms, box plots, and correlation heatmaps to explore relationships between social media usage, sleep, and mental health.
 
 # Insights & Interpretation
-A] Key findings :
-✅Usage and addiction patterns:
+### A] Key findings :
+##### ✅Usage and addiction patterns:
 1] Students with higher Avg_Daily_Usage_Hours tend to have higher Addicted_Score.
 2] Those spending more time on social media show higher Conflicts_Over_Social_Media.
 
-✅Sleep and mental health:
+##### ✅Sleep and mental health:
 1] Students with less Sleep_Hours_Per_Night often report lower Mental_Health_Score.
 
-✅Demographic observations:
+##### ✅Demographic observations:
 1] Certain Academic_Level or Gender groups spend more time on social media platforms.
 2] Platform usage (e.g., TikTok, YouTube) varies across Age and Country.
 
-B]Trends and Anomalies :
-✅Trends:
+### B]Trends and Anomalies :
+##### ✅Trends:
 1] Positive correlation between Avg_Daily_Usage_Hours and Conflicts_Over_Social_Media.
 2] Negative correlation between Sleep_Hours_Per_Night and Addicted_Score.
 3] Older students tend to have slightly higher Mental_Health_Score.
 
-✅Anomalies / Outliers:
+##### ✅Anomalies / Outliers:
 1] Some students have extremely high Student_ID (possibly data entry errors).
 2]Unusually high Conflicts_Over_Social_Media in a few cases despite low usage.
 3] Zero or missing values in Unnamed: 11 — removed as irrelevant.
 
-C] Relationships Between Features : 
-✅Correlation insights:
+### C] Relationships Between Features : 
+##### ✅Correlation insights:
 1] Avg_Daily_Usage_Hours ↔ Addicted_Score: strong positive correlation.
 2] Sleep_Hours_Per_Night ↔ Mental_Health_Score: mild positive correlation.
 3]Conflicts_Over_Social_Media ↔ Addicted_Score: moderate positive correlation.
 
-✅Categorical vs numeric relationships:
+##### ✅Categorical vs numeric relationships:
 1] Gender and Academic_Level show differences in platform usage and usage patterns.
 2] Students affecting academic performance (Affects_Academic_Performance) show higher social media usage and conflicts.
 
-D] Implications for Modeling :
-✅Predictive modeling:
+### D] Implications for Modeling :
+##### ✅Predictive modeling:
 1] Addicted_Score or Mental_Health_Score can be predicted using numeric features like Avg_Daily_Usage_Hours, Sleep_Hours_Per_Night, Conflicts_Over_Social_Media.
 2] Categorical variables (Gender, Academic_Level, Most_Used_Platform) can be included via 
    One-Hot Encoding.
 
-✅Feature selection:
+##### ✅Feature selection:
 1] Highly correlated features (like Avg_Daily_Usage_Hours and Addicted_Score) may need careful handling to avoid multicollinearity.
 2] Outlier treatment (capping or Winsorization) ensures robust model performance.
 
-✅Potential interventions / insights:
+##### ✅Potential interventions / insights:
 1] Reducing daily usage or encouraging better sleep might improve Mental_Health_Score.
 2] Understanding platform-specific conflicts can guide student counseling or awareness programs.
 
